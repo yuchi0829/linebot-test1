@@ -9,7 +9,7 @@ var bot = linebot ({
 
 bot.on('message', function(event) {
   if (event.message.type = 'text') {
-    var msg = `你輸入的是:${event.message.text}`;
+    var msg = `您輸入的是:${event.message.text}`;
   
     event.reply(msg).then(function(data) {
       
